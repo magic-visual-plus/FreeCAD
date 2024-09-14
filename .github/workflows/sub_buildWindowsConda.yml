@@ -24,6 +24,7 @@
 
 name: Build Windows (Conda)
 on:
+  workflow_dispatch:
   workflow_call:
     inputs:
       artifactBasename:
@@ -121,9 +122,17 @@ jobs:
         timeout-minutes: 1
         run: |
           . build\release\tests\Tests_run --gtest_output=json:${{ env.reportdir }}gtest_results.json # 2>&1 | tee -filepath ${{ env.logdir }}/unitTests.log
+      - name: Upload binaries as artifact
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: bunild
+          path: |
+            build\release 
       - name: FreeCAD CLI tests
         run: |
           . build\release\bin\FreeCADCmd -t 0 # 2>&1 | tee -filepath ${{ env.logdir }}/integrationTests.log
+
       - name: Upload logs
         if: always()
         uses: actions/upload-artifact@v4
