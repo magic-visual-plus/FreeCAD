@@ -84,6 +84,9 @@ public:
             "and tolerance."
             "projectPointsOnMesh(list of points, Mesh, Vector, [float]) -> list of points\n"
         );
+        add_varargs_method("generateEdgeOnMesh",&Module::generateEdgeOnMesh,
+            "generate a wire on a mesh from a given edge\n"
+        );
         add_varargs_method("wireFromSegment",&Module::wireFromSegment,
             "Create wire(s) from boundary of a mesh segment\n"
         );
@@ -366,6 +369,49 @@ private:
                             "Shape, Mesh, Vector or\n"
                             "Polygons, Mesh, Vector\n");
     }
+    
+    Py::Object generateEdgeOnMesh(const Py::Tuple& args)
+    {
+        // 根据点信息在mesh上面生成一条曲线
+        PyObject *seq, *m;
+        char *spline_group_name, *spline_name;
+        double precision = 0.02;
+        if (!PyArg_ParseTuple(args.ptr(), "OO!ss", &seq, &Mesh::MeshPy::Type, &m, &spline_group_name, &spline_name)) {
+            throw Py::Exception();
+        }
+
+        std::vector<Base::Vector3f> pointsIn;
+        Py::Sequence points(seq);
+        pointsIn.reserve(points.size());
+
+        // collect list of input points
+        for (Py::Sequence::iterator it = points.begin(); it != points.end(); ++it) {
+            Py::Vector pnt(*it);
+            pointsIn.push_back(Base::convertTo<Base::Vector3f>(pnt.toVector()));
+        }
+
+        // build mesh projection
+        // const Mesh::MeshObject* mesh = static_cast<Mesh::MeshPy*>(m)->getMeshObjectPtr();
+        // Base::Vector3d* vec = static_cast<Base::VectorPy*>(v)->getVectorPtr();
+        // Base::Vector3f dir = Base::convertTo<Base::Vector3f>(*vec);
+
+        // MeshCore::MeshKernel kernel(mesh->getKernel());
+        // kernel.Transform(mesh->getTransform());
+
+        // MeshProjection proj(kernel);
+        // std::vector<Base::Vector3f> pointsOut;
+        // proj.projectOnMesh(pointsIn, dir, static_cast<float>(precision), pointsOut);
+
+        Py::List list;
+        // for (auto it : pointsOut) {
+        //     Py::Vector v(it);
+        //     list.append(v);
+        // }
+
+        return list;
+
+    }
+
     Py::Object projectPointsOnMesh(const Py::Tuple& args)
     {
         PyObject *seq, *m, *v;
