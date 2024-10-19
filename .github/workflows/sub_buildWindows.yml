@@ -134,3 +134,11 @@ jobs:
           name: ${{ inputs.artifactBasename }}-Logs
           path: |
             ${{ env.logdir }}
+      
+      - name: Upload binaries as artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: update-build-dir
+          path: |
+            ${{ env.builddir }}
