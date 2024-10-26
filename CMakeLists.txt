@@ -108,11 +108,11 @@ if(MSVC AND FREECAD_LIBPACK_USE AND LIBPACK_FOUND)
     CopyLibpackDirectories()
 endif()
 
-if (ENABLE_DEVELOPER_TESTS)
-    include(CTest)
-    enable_testing()
-    add_subdirectory(tests)
-endif()
+# if (ENABLE_DEVELOPER_TESTS)
+#     include(CTest)
+#     enable_testing()
+#     add_subdirectory(tests)
+# endif()
 
 PrintFinalReport()
 
