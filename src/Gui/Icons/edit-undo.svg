@@ -1,73 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   width="64"
-   height="64"
-   id="svg2869"
-   version="1.1"
-   viewBox="0 0 64 64"
-   xml:space="preserve"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:dc="http://purl.org/dc/elements/1.1/"><defs
-     id="defs2871"><linearGradient
-       id="linearGradient4"><stop
-         style="stop-color:#c4a000;stop-opacity:1"
-         offset="0"
-         id="stop4" /><stop
-         style="stop-color:#fce94f;stop-opacity:1"
-         offset="1"
-         id="stop7" /></linearGradient><linearGradient
-       id="linearGradient5"><stop
-         style="stop-color:#ef2929;stop-opacity:1;"
-         offset="0"
-         id="stop19" /><stop
-         style="stop-color:#ef2929;stop-opacity:0;"
-         offset="1"
-         id="stop20" /></linearGradient><linearGradient
-       id="swatch18"><stop
-         style="stop-color:#ef2929;stop-opacity:1;"
-         offset="0"
-         id="stop18" /></linearGradient><linearGradient
-       id="swatch15"><stop
-         style="stop-color:#3d0000;stop-opacity:1;"
-         offset="0"
-         id="stop15" /></linearGradient><linearGradient
-       id="linearGradient5-1"><stop
-         style="stop-color:#ef2929;stop-opacity:1;"
-         offset="0"
-         id="stop5" /><stop
-         style="stop-color:#ef2929;stop-opacity:0;"
-         offset="1"
-         id="stop6" /></linearGradient><linearGradient
-       id="linearGradient3836-9"><stop
-         style="stop-color:#a40000;stop-opacity:1"
-         offset="0"
-         id="stop3838-8" /><stop
-         style="stop-color:#ef2929;stop-opacity:1"
-         offset="1"
-         id="stop3840-1" /></linearGradient><linearGradient
-       xlink:href="#linearGradient4"
-       id="linearGradient7"
-       x1="10.802491"
-       y1="49.560848"
-       x2="44.045834"
-       y2="16.298645"
-       gradientUnits="userSpaceOnUse" /></defs><metadata
-     id="metadata2874"><rdf:RDF><cc:Work
-         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:creator><cc:Agent><dc:title>[maxwxyz]</dc:title></cc:Agent></dc:creator><dc:relation>https://www.freecad.org/wiki/index.php?title=Artwork</dc:relation><dc:publisher><cc:Agent><dc:title>FreeCAD</dc:title></cc:Agent></dc:publisher><dc:identifier>FreeCAD/src/</dc:identifier><dc:rights><cc:Agent><dc:title>FreeCAD LGPL2+</dc:title></cc:Agent></dc:rights><dc:date>2024</dc:date></cc:Work></rdf:RDF></metadata><g
-     id="layer3"
-     style="display:inline"><g
-       id="g3"><path
-         style="color:#000000;display:block;overflow:visible;visibility:visible;fill:#fce94f;fill-opacity:1;fill-rule:nonzero;stroke:#221e0c;stroke-width:2.00001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none"
-         d="M 28.811054,2.9998852 4.331002,24.363222 28.811054,46.769639 v -14.5239 l 2.594648,-0.108269 c 14.787528,-0.613737 24.886008,10.730282 22.432341,22.916074 -0.409194,2.032201 -1.170168,4.02883 -2.277583,5.946877 4.991053,-4.644764 7.468561,-10.141504 7.997963,-15.498322 1.366583,-13.827951 -10.043816,-28.399385 -28.015327,-28.2239 l -2.732042,0.02641 z"
-         id="path1" /><path
-         style="color:#000000;display:block;overflow:visible;visibility:visible;fill:url(#linearGradient7);fill-rule:nonzero;stroke:#fce94f;stroke-width:1.47883;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;marker-start:none;marker-mid:none;marker-end:none"
-         d="m 35.335937,10.65625 14.400391,12.574219 -14.400391,13.1875 V 27.615234 L 32,27.474609 C 21.515464,27.039216 13.798628,34.189897 13.613281,42.847656 13.066901,41.466422 12.735455,40.068714 12.599609,38.693359 11.681352,29.396575 19.370531,19.319731 31.824219,19.441406 l 3.511718,0.03516 z"
-         id="path3"
-         transform="matrix(-1.3528102,0,0,1.3520431,74.61372,-7.0084018)" /></g></g></svg>
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 1928">
+<g id="Group 1925">
+<g id="Group 1924">
+<g id="Group 1923">
+<path id="Vector 9" d="M4.5 15.5L14 6.5V12L17 12.5L22 14.5L26.5 20.5L27.5 25.5L23 21.5L18 19.5H14V25.5L4.5 15.5Z" fill="#888A85"/>
+<path id="Vector" d="M13.948 25.4237L13.8378 25.4588L13.7948 25.5L13.7863 25.5C13.6193 25.5 13.5308 25.4617 13.408 25.346L4.63743 16.1567L4.62958 16.1485L4.62136 16.1406C4.52893 16.0522 4.49437 15.9493 4.5007 15.8282C4.50729 15.7022 4.56047 15.5579 4.6532 15.4318L13.4087 6.65716L13.4398 6.62599L13.465 6.58986C13.507 6.52959 13.6416 6.43907 13.8841 6.55509C14.0356 6.62756 14.1164 6.70238 14.16 6.76483C14.2005 6.82303 14.2269 6.89606 14.2269 7.00385V11.403V11.874L14.6971 11.9021C17.9201 12.0948 20.7313 13.3432 23.0482 15.656L23.0481 15.6561L23.0558 15.6635C25.5734 18.0718 27.0888 21.1507 27.4996 24.8241C27.4955 24.9398 27.4625 25.0688 27.4065 25.1691C27.3474 25.2752 27.29 25.3058 27.2566 25.3138L27.205 25.3261L27.1572 25.349C26.944 25.451 26.6768 25.4014 26.5123 25.1916L26.5054 25.1828L26.4981 25.1744C24.0896 22.3694 21.7003 20.4539 19.5414 20.0135C17.9182 19.6009 16.3963 19.498 14.6676 19.7047L14.2269 19.7574V20.2012V25.0002C14.2269 25.0734 14.1957 25.1731 14.1259 25.2695C14.0536 25.3695 13.9778 25.4141 13.948 25.4237Z" stroke="black"/>
+</g>
+</g>
+</g>
+</g>
+</svg>

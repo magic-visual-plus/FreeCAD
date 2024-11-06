@@ -1,102 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   width="64"
-   height="64"
-   id="svg2869"
-   version="1.1"
-   viewBox="0 0 64 64"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <defs
-     id="defs2871">
-    <linearGradient
-       xlink:href="#linearGradient3765"
-       id="linearGradient3771"
-       x1="98"
-       y1="1047.3622"
-       x2="81"
-       y2="993.36218"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(-60,-988.36218)" />
-    <linearGradient
-       id="linearGradient3765">
-      <stop
-         style="stop-color:#d3d7cf;stop-opacity:1;"
-         offset="0"
-         id="stop3767" />
-      <stop
-         style="stop-color:#ffffff;stop-opacity:1"
-         offset="1"
-         id="stop3769" />
-    </linearGradient>
-  </defs>
-  <metadata
-     id="metadata2874">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:creator>
-          <cc:Agent>
-            <dc:title>[maxwxyz]</dc:title>
-          </cc:Agent>
-        </dc:creator>
-        <dc:relation>https://www.freecad.org/wiki/index.php?title=Artwork</dc:relation>
-        <dc:publisher>
-          <cc:Agent>
-            <dc:title>FreeCAD</dc:title>
-          </cc:Agent>
-        </dc:publisher>
-        <dc:identifier>FreeCAD/src/</dc:identifier>
-        <dc:rights>
-          <cc:Agent>
-            <dc:title>FreeCAD LGPL2+</dc:title>
-          </cc:Agent>
-        </dc:rights>
-        <dc:date>2024</dc:date>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g
-     id="layer3"
-     style="display:inline">
-    <g
-       id="layer3-3"
-       style="display:inline">
-      <path
-         style="fill:url(#linearGradient3771);fill-opacity:1;stroke:#2e3436;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
-         d="m 11,3 v 58.00002 h 42 v -48 L 43,3 Z"
-         id="path2991" />
-      <path
-         style="fill:none;stroke:#ffffff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="M 13,5 V 59.00002 H 51 V 13.81392 L 41.99741,5 Z"
-         id="path3763" />
-      <path
-         style="fill:#2e3436;fill-opacity:0.392157;stroke:#2e3436;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-opacity:1"
-         d="M 43,3 V 13.00002 H 53 Z"
-         id="path2993" />
-    </g>
-  </g>
-  <g
-     id="g5"
-     style="stroke:#2e3436">
-    <circle
-       style="fill:#eeeeec;stroke:#555753;stroke-width:2.00001;stroke-linecap:round;stroke-linejoin:round"
-       id="path2"
-       cx="45.99572"
-       cy="45.994976"
-       r="15.005042" />
-    <path
-       id="path1"
-       style="fill:#8ae234;stroke:#17230b;stroke-width:1.99998;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
-       d="m 43.99572,35.994976 h 4 v 8 h 8 v 4 h -8 v 8 h -4 v -8 h -8 v -4 h 8 z" />
-  </g>
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 1919">
+<g id="Group 1918">
+<path id="Subtract" d="M5.5 7C5.5 6.17157 6.17157 5.5 7 5.5H25C25.8284 5.5 26.5 6.17157 26.5 7V13.5H24.5V12.625C24.5 11.4101 23.437 10.5 22.2222 10.5H9.77778C8.56303 10.5 7.5 11.4101 7.5 12.625V22.375C7.5 23.5899 8.56303 24.5 9.77778 24.5H10.5V26.5H7C6.17157 26.5 5.5 25.8284 5.5 25V7Z" fill="#888A85" stroke="black"/>
+<g id="Group 1917">
+<circle id="Ellipse 43" cx="21" cy="21" r="5.5" fill="#888A85" stroke="black"/>
+<rect id="Rectangle 2954" x="18" y="20.5" width="6" height="1" rx="0.2" fill="white"/>
+<rect id="Rectangle 2955" x="20.5" y="24" width="6" height="1" rx="0.2" transform="rotate(-90 20.5 24)" fill="white"/>
+</g>
+</g>
+</g>
 </svg>
